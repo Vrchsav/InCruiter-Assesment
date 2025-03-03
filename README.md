@@ -1,4 +1,3 @@
-
 # Project Changes Overview
 
 ## Overview
@@ -8,6 +7,7 @@ This document provides an overview of the recent changes made to the project.
 - Configured an Express server in `server.js`.
 - Added middleware for JSON parsing and CORS.
 - Configured the server to run on a port specified in the environment variables or default to port 5000.
+- Connected to MongoDB using Mongoose.
 
 ### 2. Package Dependencies
 - Added necessary dependencies in `package.json` for the user authentication system:
@@ -22,8 +22,9 @@ This document provides an overview of the recent changes made to the project.
   - `cors`
 - Added `nodemon` as a development dependency for automatic server restarts during development.
 
-## Notes
-- Ensure to merge the changes carefully to avoid conflicts.
-- Review the changes to understand the new functionalities added.
-```
-```
+### 3. Database Configuration
+- Created a `config/db.js` file to handle MongoDB connection using Mongoose.
+
+### 4. Error Handling
+- Created a `utils/errorResponse.js` file to handle custom error responses.
+
