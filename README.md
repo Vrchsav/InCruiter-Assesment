@@ -28,3 +28,22 @@ This document provides an overview of the recent changes made to the project.
 ### 4. Error Handling
 - Created a `utils/errorResponse.js` file to handle custom error responses.
 
+### 5. Email Utility
+- Created a `utils/sendEmail.js` file to handle sending emails using Nodemailer.
+
+### 6. Authentication Routes
+- Created an `routes/auth.js` file to handle authentication routes including register, login, getMe, forgotPassword, and resetPassword.
+
+### 7. User Model
+- Created a `models/User.js` file to define the User schema and methods for password hashing, JWT token generation, and password reset token generation.
+
+### 8. Authentication Middleware
+- Created a `middleware/auth.js` file to handle route protection using JWT.
+
+### 9. Authentication Controller
+- Created a `controllers/authController.js` file to handle authentication logic including register, login, getMe, forgotPassword, and resetPassword.
+
+## Notes
+- Ensure to merge the changes carefully to avoid conflicts.
+- Review the changes to understand the new functionalities added.
+
